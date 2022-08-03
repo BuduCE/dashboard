@@ -1,5 +1,4 @@
 import React from 'react'
-import Overview from '../../../pages/Overview'
 import Header from '../Header'
 import Logo from '../Logo'
 import './styles.css'
@@ -49,7 +48,7 @@ const Sidenav = () => {
         </div>
         <div className="info">
             <Header />
-            <Overview />
+            <Over
         </div>
     </div>
   )

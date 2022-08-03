@@ -1,6 +1,4 @@
-.overview_pg{
-    margin-top: 54px;
-}
+.overview
 .overview_stat{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -11,7 +9,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* border: 1px solid; */
+    border: 1px solid;
     border-radius: 5px;
     padding: 24px 32px;
     background: #fff;
@@ -33,7 +31,6 @@
     margin-top: 30px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 30px;
 }
 .trends_head{
     padding: 32px;
@@ -48,8 +45,6 @@
 }
 .trends_headB img{
     width: 100%;
-    margin-top: 54px;
-    height: 55vh;
 }
 
 /* summary  */
@@ -59,8 +54,8 @@
 }
 .summary_type{
     padding: 32px;
-    border-left: 1px solid #F7F8FC;
-    border-bottom: 1px solid #F7F8FC;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
     text-align: center;
 }
 .summary_type p{

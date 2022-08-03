@@ -59,8 +59,8 @@
 }
 .summary_type{
     padding: 32px;
-    border-left: 1px solid #F7F8FC;
-    border-bottom: 1px solid #F7F8FC;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid F7F8FC;
     text-align: center;
 }
 .summary_type p{
