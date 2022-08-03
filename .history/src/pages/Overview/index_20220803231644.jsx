@@ -28,24 +28,20 @@ const Overview = () => {
         {/* Today's trend */}
         <div className="trends">
             <div className="trends_head">
-                <div className="trends_headT">
-                    <div className="trend_title">
-                        <h2>Today's trends</h2>
+                <div className="trend_title">
+                    <h2>Today's trends</h2>
+                </div>
+                <div className="trend_title_stat">
+                    <div className="trend_date">
+                        <small>as of May 2019, 09:41 PM</small>
                     </div>
-                    <div className="trend_title_stat">
-                        <div className="trend_date">
-                            <small>as of May 2019, 09:41 PM</small>
-                        </div>
-                        <div className="trend_day">
-                            <small>Today</small>
-                            <small>Yesterday</small>
-                        </div>
+                    <div className="trend_day">
+                        <small>Today</small>
+                        <small>Yesterday</small>
                     </div>
                 </div>
 
-                <div className="trends_headB">
-                    <img src={TrendMap} alt="Trend Chart" />
-                </div>
+                <img src={TrendMap} alt="Trend Chart" />
             </div>
 
             <div className="trends_summary">
@@ -54,20 +50,20 @@ const Overview = () => {
                     <h2>449</h2>
                 </div>
                 <div className="summary_type">
-                    <p>Received</p>
-                    <h2>426</h2>
+                    <p>Resolved</p>
+                    <h2>449</h2>
                 </div>
                 <div className="summary_type">
-                    <p>Average first response time</p>
-                    <h2>33m</h2>
+                    <p>Resolved</p>
+                    <h2>449</h2>
                 </div>
                 <div className="summary_type">
-                    <p>Average response time</p>
-                    <h2>3h 8m</h2>
+                    <p>Resolved</p>
+                    <h2>449</h2>
                 </div>
                 <div className="summary_type">
-                    <p>Resolution with SLA</p>
-                    <h2>94%</h2>
+                    <p>Resolved</p>
+                    <h2>449</h2>
                 </div>
             </div>
         </div>

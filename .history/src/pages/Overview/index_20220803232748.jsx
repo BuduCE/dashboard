@@ -29,23 +29,22 @@ const Overview = () => {
         <div className="trends">
             <div className="trends_head">
                 <div className="trends_headT">
-                    <div className="trend_title">
-                        <h2>Today's trends</h2>
+                    
+                </div>
+                <div className="trend_title">
+                    <h2>Today's trends</h2>
+                </div>
+                <div className="trend_title_stat">
+                    <div className="trend_date">
+                        <small>as of May 2019, 09:41 PM</small>
                     </div>
-                    <div className="trend_title_stat">
-                        <div className="trend_date">
-                            <small>as of May 2019, 09:41 PM</small>
-                        </div>
-                        <div className="trend_day">
-                            <small>Today</small>
-                            <small>Yesterday</small>
-                        </div>
+                    <div className="trend_day">
+                        <small>Today</small>
+                        <small>Yesterday</small>
                     </div>
                 </div>
 
-                <div className="trends_headB">
-                    <img src={TrendMap} alt="Trend Chart" />
-                </div>
+                <img src={TrendMap} alt="Trend Chart" />
             </div>
 
             <div className="trends_summary">

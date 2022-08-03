@@ -26,10 +26,8 @@
     background: #fff;
     margin: auto;
     border-radius: 5px;
-    height: 80vh;
+    height: 56vh;
     margin-top: 30px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 .trends_head{
     padding: 32px;
@@ -42,21 +40,11 @@
     display: flex;
     justify-content: space-evenly;
 }
-.trends_headB img{
-    width: 100%;
+.trends_head img{
+    /* width: 80%; */
 }
 
 /* summary  */
 .trends_summary{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-.summary_type{
-    padding: 32px;
-    border-left: 1px solid grey;
-    border-bottom: 1px solid grey;
-    text-align: center;
-}
-.summary_type p{
-    margin-bottom: 6px;
+    display
 }

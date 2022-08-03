@@ -44,7 +44,7 @@ const Overview = () => {
                 </div>
 
                 <div className="trends_headB">
-                    <img src={TrendMap} alt="Trend Chart" />
+
                 </div>
             </div>
 

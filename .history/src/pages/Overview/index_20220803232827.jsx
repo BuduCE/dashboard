@@ -43,9 +43,8 @@ const Overview = () => {
                     </div>
                 </div>
 
-                <div className="trends_headB">
-                    <img src={TrendMap} alt="Trend Chart" />
-                </div>
+                <div className="trends_headB"></div>
+                <img src={TrendMap} alt="Trend Chart" />
             </div>
 
             <div className="trends_summary">

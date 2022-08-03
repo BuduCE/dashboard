@@ -42,8 +42,8 @@
     display: flex;
     justify-content: space-evenly;
 }
-.trends_headB img{
-    width: 100%;
+.trends_head img{
+    /* width: 80%; */
 }
 
 /* summary  */
