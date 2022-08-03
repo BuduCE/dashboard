@@ -1,0 +1,12 @@
+.head_er{
+    display: flex;
+    justify-content: space-between;
+}
+.headerR{
+    display: flex;
+    justify-content: space-between;
+}
+.headerR h3{
+    padding
+    border-left: 1px solid #000;
+}

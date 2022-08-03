@@ -1,0 +1,15 @@
+.head_er{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5vh;
+}
+.headerR{
+    display: flex;
+    justify-content: space-between;
+}
+.headerR i
+.headerR h3{
+    padding: 13px 32px;
+    border-left: 1px solid #000;
+}

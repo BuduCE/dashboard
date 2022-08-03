@@ -1,0 +1,30 @@
+.login{
+    height: 63vh;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 139px;
+    background: #fff;
+    padding: 40px 32px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+.login_form label{
+    text-align: left;
+    /* margin-bottom: ; */
+}
+.login_form input{
+    margin-bottom: 24px;
+}
+.login_form small{
+    margin-bottom: 48px;
+}
+.login_form button{
+    padding: 13px 30px;
+    background: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

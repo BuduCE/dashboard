@@ -1,0 +1,19 @@
+.head_er{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 30px 33px;
+}
+.headerR{
+    display: flex;
+    justify-content: space-between;
+}
+.headerR i{
+    width: 16px;
+    h
+}
+.headerR h3{
+    padding: 13px 32px;
+    border-left: 1px solid #000;
+}

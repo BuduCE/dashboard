@@ -1,0 +1,11 @@
+.overview_pg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.overview_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: ;
+}

@@ -1,0 +1,42 @@
+.overview_stat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-evenly; */
+    width: 100%;
+}
+.overview_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 24px 32px;
+    background: #fff;
+    box-shadow: 15px;
+    width: 55%;
+    margin: auto;
+}
+.overview_info p{
+    padding-bottom: 12px;
+}
+
+/* trend  */
+.trends{
+    width: 90%;
+    background: #fff;
+    margin: auto;
+    border-radius: 5px;
+    height: 56vh;
+    margin-top: 30px;
+}
+.trends_head{
+    padding: 32px;
+}
+.trend_title_stat{
+    display: flex;
+    justify-content: space-between;
+}
+.trend_day{
+    display: flex;
+    justify-content: space-evenly;
+}

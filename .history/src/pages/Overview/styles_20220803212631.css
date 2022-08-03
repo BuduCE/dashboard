@@ -1,0 +1,22 @@
+.overview_stat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    /* margin: auto; */
+}
+.overview_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 24px 32px;
+    background: #fff;
+    box-shadow: 15px;
+    width: 60%;
+    mauto
+}
+.overview_info p{
+    padding-bottom: 12px;
+}
