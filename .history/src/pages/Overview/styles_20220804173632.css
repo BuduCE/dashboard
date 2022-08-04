@@ -62,7 +62,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 .summary_type{
-    padding: 28px;
+    padding: 30px;
     border-left: 1px solid #dfe0e5;
     border-bottom: 1px solid #dfe0e5;
     text-align: center;
@@ -75,7 +75,7 @@
 .ticket_n_task{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -109,11 +109,4 @@
     padding: 20px 32px;
     border-bottom: 1px solid #F7F8FC;
     margin-top: 36px;
-    align-items: center;
-}
-.task_todo{
-    align-items: center;
-}
-.task_todo label{
-    margin-left: 8px;
 }

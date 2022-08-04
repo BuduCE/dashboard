@@ -7,8 +7,7 @@ import Sidenav from './components/common/SideNav';
 function App() {
   return (
     <div className="App">
-      <Sidenav />
-      {/* <Login /> */}
+      {/* <Sidenav /> */}
     </div>
   );
 }

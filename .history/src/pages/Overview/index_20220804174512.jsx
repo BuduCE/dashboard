@@ -116,7 +116,7 @@ const Overview = () => {
                         <p>+</p>
                     </a>
                     <a href="">
-                        <div className='task_todo'>
+                        <div >
                             <input type="checkbox" name="" id="" />
                             <label htmlFor="">Finish ticket update</label>
                         </div>
@@ -124,7 +124,7 @@ const Overview = () => {
                         <p>URGENT</p>
                     </a>
                     <a href="">
-                        <div className='task_todo'>
+                        <div>
                             <input type="checkbox" name="" id="" />
                             <label htmlFor="">Create new ticket example</label>
                         </div>
@@ -132,7 +132,7 @@ const Overview = () => {
                         <p>NEW</p>
                     </a>
                     <a href="">
-                        <div className='task_todo'>
+                        <div>
                             <input type="checkbox" name="" id="check" />
                             <label htmlFor="">Update ticket report</label>
                         </div>
