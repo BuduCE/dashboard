@@ -134,7 +134,7 @@ const Overview = () => {
                     <a href="">
                         <div>
                             <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Update ticket report</label>
+                            <label htmlFor="">Finish ticket update</label>
                         </div>
 
                         <p>DEFAULT</p>

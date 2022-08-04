@@ -126,18 +126,18 @@ const Overview = () => {
                     <a href="">
                         <div>
                             <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Create new ticket example</label>
+                            <label htmlFor="">Finish ticket update</label>
                         </div>
 
-                        <p>NEW</p>
+                        <p>URGENT</p>
                     </a>
                     <a href="">
                         <div>
                             <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Update ticket report</label>
+                            <label htmlFor="">Finish ticket update</label>
                         </div>
 
-                        <p>DEFAULT</p>
+                        <p>URGENT</p>
                     </a>
                 </div>
             </div>

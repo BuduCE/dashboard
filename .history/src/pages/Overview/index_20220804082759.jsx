@@ -119,25 +119,17 @@ const Overview = () => {
                         <div>
                             <input type="checkbox" name="" id="" />
                             <label htmlFor="">Finish ticket update</label>
-                        </div>
+                        </>
 
                         <p>URGENT</p>
                     </a>
                     <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Create new ticket example</label>
-                        </div>
-
-                        <p>NEW</p>
+                        <p>Awaiting Developer Fix</p>
+                        <p>914</p>
                     </a>
                     <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Update ticket report</label>
-                        </div>
-
-                        <p>DEFAULT</p>
+                        <p>Pending</p>
+                        <p>281</p>
                     </a>
                 </div>
             </div>

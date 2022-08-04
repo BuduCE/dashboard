@@ -95,8 +95,8 @@ const Overview = () => {
                         <p>914</p>
                     </a>
                     <a href="">
-                        <p>Pending</p>
-                        <p>281</p>
+                        <p>Waiting on Feature Request</p>
+                        <p>4238</p>
                     </a>
                 </div>
             </div>
@@ -110,36 +110,7 @@ const Overview = () => {
                     <small>Today</small>
                 </div>
 
-                <div className="ticket_list">
-                    <a href="">
-                        <p>Create new task</p>
-                        <p>+</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Finish ticket update</label>
-                        </div>
 
-                        <p>URGENT</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Create new ticket example</label>
-                        </div>
-
-                        <p>NEW</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Update ticket report</label>
-                        </div>
-
-                        <p>DEFAULT</p>
-                    </a>
-                </div>
             </div>
         </div>
     </div>

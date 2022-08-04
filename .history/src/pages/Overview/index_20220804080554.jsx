@@ -87,16 +87,16 @@ const Overview = () => {
                         <p>4238</p>
                     </a>
                     <a href="">
-                        <p>Awaiting Customer Response</p>
-                        <p>1005</p>
+                        <p>Waiting on Feature Request</p>
+                        <p>4238</p>
                     </a>
                     <a href="">
-                        <p>Awaiting Developer Fix</p>
-                        <p>914</p>
+                        <p>Waiting on Feature Request</p>
+                        <p>4238</p>
                     </a>
                     <a href="">
-                        <p>Pending</p>
-                        <p>281</p>
+                        <p>Waiting on Feature Request</p>
+                        <p>4238</p>
                     </a>
                 </div>
             </div>
@@ -109,37 +109,7 @@ const Overview = () => {
                     </div>
                     <small>Today</small>
                 </div>
-
-                <div className="ticket_list">
-                    <a href="">
-                        <p>Create new task</p>
-                        <p>+</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Finish ticket update</label>
-                        </div>
-
-                        <p>URGENT</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Create new ticket example</label>
-                        </div>
-
-                        <p>NEW</p>
-                    </a>
-                    <a href="">
-                        <div>
-                            <input type="checkbox" name="" id="" />
-                            <label htmlFor="">Update ticket report</label>
-                        </div>
-
-                        <p>DEFAULT</p>
-                    </a>
-                </div>
+                
             </div>
         </div>
     </div>

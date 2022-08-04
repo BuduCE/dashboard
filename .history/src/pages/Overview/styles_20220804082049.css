@@ -74,13 +74,7 @@
     width: 80%;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
-}
-.ticket{
-    margin-right: 50px;
-}
-.task{
-    margin-left: 50px;
+    margin
 }
 .ticket,.task{
     border-radius: 5px;
