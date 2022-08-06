@@ -1,0 +1,22 @@
+.ticket_pg{
+    background: #fff;
+    border-radius: 5px;
+    height: 96vh;
+    width: 95%;
+    margin: auto;
+    margin-top: 54px;
+}
+.ticket_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+.titleR, .titleR_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+}
+.filterR_icon p{
+    margin-left: 32px;
+}

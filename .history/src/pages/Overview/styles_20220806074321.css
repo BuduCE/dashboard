@@ -1,0 +1,123 @@
+.overview_pg{
+    margin: 54px 33px 0 30px;
+}
+.overview_stat{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* width: 100%; */
+}
+.overview_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    padding: 24px 80px;
+    background: #fff;
+    box-shadow: 15px;
+    /* width: 90%; */
+    height: 13vh;
+    margin: auto;
+}
+.overview_info:hover{
+    color: blue;
+    border: 1px blue solid;
+}
+.overview_info p{
+    padding-bottom: 12px;
+    color: #c5c7cd;
+    font-size: 1.18rem;
+}
+.overview_info h2{
+    font-
+}
+
+/* trend  */
+.trends{
+    width: 90%;
+    background: #fff;
+    margin: auto;
+    border-radius: 5px;
+    height: 80vh;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+}
+.trends_head{
+    padding: 32px;
+}
+.trend_title_stat{
+    display: flex;
+    justify-content: space-between;
+}
+.trend_day{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trends_headB img{
+    width: 100%;
+    margin-top: 54px;
+    height: 55vh;
+}
+
+/* summary  */
+.trends_summary{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.summary_type{
+    padding: 28px;
+    border-left: 1px solid #dfe0e5;
+    border-bottom: 1px solid #dfe0e5;
+    text-align: center;
+}
+.summary_type p{
+    margin-bottom: 6px;
+}
+
+/* Tickets */
+.ticket_n_task{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ticket{
+    margin-right: 50px;
+}
+.task{
+    margin-left: 50px;
+}
+.ticket,.task{
+    border-radius: 5px;
+    background: #fff;
+}
+.ticket_head{
+    padding: 32px;
+    margin-bottom: 8px;
+    width: 80%;
+    height: 10vh;
+}
+.ticket_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticket_list a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    border-bottom: 1px solid #F7F8FC;
+    margin-top: 36px;
+    align-items: center;
+}
+.task_todo{
+    align-items: center;
+}
+.task_todo label{
+    margin-left: 8px;
+}
