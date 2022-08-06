@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../../components/common/Header'
 import './styles.css'
 import Budu from './budu.jpg'
-import More from './more.svg'
 
 const Tickets = () => {
   return (
@@ -19,7 +18,7 @@ const Tickets = () => {
                         <i className='fas fa-arrow-up-wide-short icon'></i>
                         <p>Sort</p>
                     </div>
-                    <div className="titleR_icon filter">
+                    <div className="titleR_iconR">
                         <i className='fas fa-filter icon'></i>
                         <p>Filter</p>
                     </div>
@@ -37,26 +36,22 @@ const Tickets = () => {
                         <div className="info_title">
                             <img src={Budu} alt="" />
 
-                            <div className='info_height'>
+                            <div>
                                 <h4>Contact email not linked</h4>
                                 <small>Updated 1 day ago</small>
                             </div>
                         </div>
-
-                        <div className="info_name info_height">
+                        <div className="info_name">
                             <h4>Tom Cruise</h4>
                             <small>on 24.05.2019</small>
                         </div>
-
-                        <div className="info_date info_height">
+                        <div className="info_date">
                             <h4>May, 26 2019</h4>
                             <small>6:30 PM</small>
                         </div>
-
                         <div className="info_status">
                             <button>HIGH</button>
-                            {/* <i className='fas fa-caret-down'></i> */}
-                            <img src={More} alt="" />
+                            <i className='fas fa-caret-down'></i>
                         </div>
                     
                 </div>

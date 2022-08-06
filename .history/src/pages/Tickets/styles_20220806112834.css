@@ -69,12 +69,8 @@
 }
 .info_status button{
     padding: 5px 20px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 40%;
     background: red;
     color: #fff;
     border: none;
-}
-.info_status img{
-    margin-right: 41px;
-    margin-left: 82px;
 }

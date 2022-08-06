@@ -66,6 +66,7 @@
     /* grid-template-columns: 1fr 1fr; */
     justify-content: space-between;
     align-items: center;
+    
 }
 .info_status button{
     padding: 5px 20px;
@@ -73,8 +74,4 @@
     background: red;
     color: #fff;
     border: none;
-}
-.info_status img{
-    margin-right: 41px;
-    margin-left: 82px;
 }

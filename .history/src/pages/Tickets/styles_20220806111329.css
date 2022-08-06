@@ -2,7 +2,7 @@
     background: #fff;
     border-radius: 5px;
     height: 96vh;
-    /* margin: auto; */
+    margin: auto;
     margin: 36px 33px 0 30px;
     margin-top: 54px;
 }
@@ -10,12 +10,13 @@
     display: flex;
     justify-content: space-between;
     padding: 32px;
-    align-items: center;
+    align
 }
-.titleR,.titleR_icon{
+.titleR, .titleR_icon{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 32px;
 }
 .titleR_icon p{
     margin-left: 8px;
@@ -23,9 +24,6 @@
 }
 .icon{
     color: #C5C7CD;
-}
-.filter{
-    margin-left: 32px;
 }
 /* .tab_head{
     display: grid;
@@ -40,7 +38,6 @@
     margin: auto;
     padding: 24px 31px;
     border-bottom: 1px solid #dfe0e5;
-    align-items: center;
 }
 .tab_info:hover{
     background: #F7F8FC;
@@ -50,16 +47,13 @@
     grid-template-columns: 1fr 7fr;
 }
 .info_title img{
-    width: 54px;
-    height: 54px;
+    width: 44px;
+    height: 44px;
     border: 5px solid #dfe0e5;
     border-radius: 50%;
 }
 .ticket_tab{
     margin: auto;
-}
-.info_height h4{
-    margin-bottom: 4px;
 }
 .info_status{
     display: flex;
@@ -69,12 +63,8 @@
 }
 .info_status button{
     padding: 5px 20px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 40%;
     background: red;
     color: #fff;
     border: none;
-}
-.info_status img{
-    margin-right: 41px;
-    margin-left: 82px;
 }

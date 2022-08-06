@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../../components/common/Header'
 import './styles.css'
 import Budu from './budu.jpg'
-import More from './more.svg'
 
 const Tickets = () => {
   return (
@@ -37,7 +36,7 @@ const Tickets = () => {
                         <div className="info_title">
                             <img src={Budu} alt="" />
 
-                            <div className='info_height'>
+                            <div className=' info_height'>
                                 <h4>Contact email not linked</h4>
                                 <small>Updated 1 day ago</small>
                             </div>
@@ -55,8 +54,7 @@ const Tickets = () => {
 
                         <div className="info_status">
                             <button>HIGH</button>
-                            {/* <i className='fas fa-caret-down'></i> */}
-                            <img src={More} alt="" />
+                            <i className='fas fa-caret-down'></i>
                         </div>
                     
                 </div>

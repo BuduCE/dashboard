@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../../components/common/Header'
 import './styles.css'
 import Budu from './budu.jpg'
-import More from './more.svg'
 
 const Tickets = () => {
   return (
@@ -43,20 +42,19 @@ const Tickets = () => {
                             </div>
                         </div>
 
-                        <div className="info_name info_height">
+                        <div className="info_nameinfo_height">
                             <h4>Tom Cruise</h4>
                             <small>on 24.05.2019</small>
                         </div>
 
-                        <div className="info_date info_height">
+                        <div className="info_dateinfo_height">
                             <h4>May, 26 2019</h4>
                             <small>6:30 PM</small>
                         </div>
 
                         <div className="info_status">
                             <button>HIGH</button>
-                            {/* <i className='fas fa-caret-down'></i> */}
-                            <img src={More} alt="" />
+                            <i className='fas fa-caret-down'></i>
                         </div>
                     
                 </div>
