@@ -11,7 +11,7 @@ const Sidenav = () => {
         <div className="navbar">
             <div className="logo">
                 <Logo />
-                <h1>Dashboard Kit</h1>
+                <h1>Dashboard Kit  - </h1>
             </div>
             <div className="heading">
                 <i className='fas fa-chart-pie'></i>

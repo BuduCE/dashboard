@@ -1,7 +1,7 @@
 import React from 'react'
-import Overview from '../../../pages/Overview'
+// import Overview from '../../../pages/Overview'
 import Tickets from '../../../pages/Tickets'
-import Header from '../Header'
+// import Header from '../Header'
 import Logo from '../Logo'
 import './styles.css'
 
@@ -11,7 +11,7 @@ const Sidenav = () => {
         <div className="navbar">
             <div className="logo">
                 <Logo />
-                <h1>Dashboard Kit</h1>
+                <h1>Dashboard Kit  - </h1>
             </div>
             <div className="heading">
                 <i className='fas fa-chart-pie'></i>
@@ -33,7 +33,7 @@ const Sidenav = () => {
                 <i className='fas fa-map-pin'></i>
                 <p>Agents</p>
             </div>
-            <div className="heading">
+            <div className="heading divider">
                 <i className='fas fa-newspaper'></i>
                 <p>Articles</p>
             </div>
@@ -49,8 +49,8 @@ const Sidenav = () => {
         </div>
         <div className="info">
             {/* <Header /> */}
-            <Overview />
-            {/* <Tickets /> */}
+            {/* <Overview /> */}
+            <Tickets />
         </div>
     </div>
   )
