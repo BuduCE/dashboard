@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.932fc6d9.css",
+    "main.js": "/dashboard/static/js/main.dc59633f.js",
+    "static/js/787.545aecf5.chunk.js": "/dashboard/static/js/787.545aecf5.chunk.js",
+    "static/media/budu.jpg": "/dashboard/static/media/budu.c7a946f2feadc5d6a7fe.jpg",
+    "index.html": "/dashboard/index.html",
+    "static/media/logo.svg": "/dashboard/static/media/logo.75d69984421e0fedc006769e07f36255.svg",
+    "static/media/more.svg": "/dashboard/static/media/more.4c10c7facf3b339b789c41c9ea7adeb5.svg",
+    "main.932fc6d9.css.map": "/dashboard/static/css/main.932fc6d9.css.map",
+    "main.dc59633f.js.map": "/dashboard/static/js/main.dc59633f.js.map",
+    "787.545aecf5.chunk.js.map": "/dashboard/static/js/787.545aecf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.932fc6d9.css",
+    "static/js/main.dc59633f.js"
+  ]
+}
